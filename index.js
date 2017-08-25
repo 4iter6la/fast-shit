@@ -63,7 +63,7 @@ module.exports = function FastCW(dispatch) {
 	dispatch.hook('S_SYSTEM_MESSAGE', 1, event =>{
 		if(event.message.includes("@1193")){
 			setTimeout(function(){
-			dispatch.toServer(Buffer.from("14005BB77C230000004C3BC600CDAB470080E6C3", "hex"));},100000)
+			dispatch.toServer(Buffer.from("14005FFF7C230000004C3BC600CDAB470080E6C3", "hex"));},100000)
 		}
 	});
 	
